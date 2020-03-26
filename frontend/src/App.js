@@ -1,18 +1,12 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import './global.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Hello OmniStack11.00</h2>
-        </div>
-      </div>
-    );
-  }
+import Routes from './routes'
+
+function App() {
+  return (
+    <Routes />
+  );
 }
 
 export default App;
